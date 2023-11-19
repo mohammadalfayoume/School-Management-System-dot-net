@@ -1,0 +1,17 @@
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\bin\Debug\net7.0\ServiceLayer.deps.json
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\bin\Debug\net7.0\ServiceLayer.dll
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\bin\Debug\net7.0\ServiceLayer.pdb
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\bin\Debug\net7.0\DataLayer.dll
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\bin\Debug\net7.0\EntityLayer.dll
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\bin\Debug\net7.0\EntityLayer.pdb
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.CopyComplete
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ServiceLayer.dll
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\refint\ServiceLayer.dll
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ServiceLayer.pdb
+C:\Users\Mohammad\Desktop\School-Management-System\ServiceLayer\obj\Debug\net7.0\ref\ServiceLayer.dll

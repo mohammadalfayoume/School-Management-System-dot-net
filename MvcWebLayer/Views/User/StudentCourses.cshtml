@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Course Name</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.studentCourses.Count; i++)
+            {
+                <tr>
+                    <th scope="row">@Model.studentCourses[i].CourseId</th>
+                    <td>@Model.studentCourses[i].Course.CourseName</td>
+                    <td>
+                        @Html.ActionLink("Remove", "RemoveStudentCourse", "Course", new {studentId=Model.studentId, courseId=Model.studentCourses[i].CourseId})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div>
+        <form method="post" action="@Url.Action("AddCourseToStudent", "Course")">
+            <!-- Add a hidden input field for studentId -->
+            <input type="hidden" id="studentId" name="studentId" value="@Model.studentId">
+            <div style="display:flex;justify-content:center; gap:4rem">
+                <div class="form-group" style="width:50%">
+                    <select class="form-control" id="CourseId" name="CourseId">
+                        <option value="">Select</option>
+                        @for (int i = 0; i < Model.courses.Count; i++)
+                        {
+                            <option value="@Model.courses[i].Id">@Model.courses[i].CourseName</option>
+                        }
+                    </select>
+                </div>
+                <button class="btn" style="background-color:lightblue">Register</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form method="post" action="@Url.Action("AddCourse", "Course")">
+    <!-- Course Name input -->
+    <input type="hidden" id="teacherId" name="teacherId" value="@Model">
+    <div class="form-outline mb-4">
+        <input type="text" id="form1Example1" name="CourseName" class="form-control" />
+        <label class="form-label" for="form1Example1">Course Name</label>
+    </div>
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block">Create</button>
+</form>
